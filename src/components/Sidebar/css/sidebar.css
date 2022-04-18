@@ -1,0 +1,121 @@
+.container {
+    position: fixed;
+    left: 0;
+    background-color: #fff;
+    height: 100vh;
+    width: 17vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    gap: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 4px, rgba(0, 0, 0, 0.4) 0px 7px 13px -3px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+    
+}
+
+.toggle {
+    display: none;
+}
+
+.bottom {
+    border-bottom: 2px solid black;
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+}
+
+.brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    padding-bottom: 0.6rem;
+}
+
+.brand svg {
+    color: #222;
+    font-size: 2rem;
+
+}
+
+.brand span {
+    color: #222;
+    font-size: 1.5rem;
+
+}
+
+.icon_link {
+    font-size: 1.5rem;
+}
+
+.span_link {
+    font-size: 1.1rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+
+}
+
+li {
+    padding: 0.5rem 1rem;
+    margin-left: 0.1rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+li a {
+    color: #222;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.active {
+    background-color: #222;
+
+}
+
+.active a {
+    color: #fff;
+
+}
+
+.logout {
+    padding: 0.8rem 0.4rem;
+
+}
+
+
+.logout_a {
+    color: #222;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+
+
+
+
+
+
+
+
+
