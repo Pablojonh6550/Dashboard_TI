@@ -7,7 +7,7 @@ import { MdSpaceDashboard } from 'react-icons/md';
 import { RiComputerLine } from 'react-icons/ri';
 import { FiLogOut } from 'react-icons/fi';
 //--Hooks--
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 //--CSS--
 import './css/sidebar.css';
 
@@ -30,41 +30,23 @@ function Sidebar() {
                     </div>
                     <div className="links">
                         <ul>
-                            <li onClick={() => setCurrentLink(1)} className={currentLink === 1 ? 'active' : ''}>
+                            <li onClick={() => setCurrentLink(1)} className={currentLink === 1 ? 'active' : 'li_class'}>
                                 <Link to='/'>
                                     <MdSpaceDashboard className="icon_link" />
                                     <span className='span_link'>Rede</span>
                                 </Link>    
                             </li>
-                            <li onClick={() => setCurrentLink(2)} className={currentLink === 2 ? 'active' : ''}>
+                            <li onClick={() => setCurrentLink(2)} className={currentLink === 2 ? 'active' : 'li_class'}>
                                 <Link to="/computer">
                                     <MdSpaceDashboard className="icon_link" />
                                     <span className='span_link'>Computador</span>
                                 </Link>    
                             </li>
-                            <li onClick={() => setCurrentLink(3)} className={currentLink === 3 ? 'active' : ''}>
-                                <a href="#">
+                            <li onClick={() => setCurrentLink(3)} className={currentLink === 3 ? 'active' : 'li_class'}>
+                                <Link to="/smartphone">
                                     <MdSpaceDashboard className="icon_link" />
                                     <span className='span_link'>Smartphone</span>
-                                </a>    
-                            </li>
-                            <li onClick={() => setCurrentLink(4)} className={currentLink === 4 ? 'active' : ''}>
-                                <a href="#">
-                                    <MdSpaceDashboard className="icon_link" />
-                                    <span className='span_link'>Dashboard</span>
-                                </a>    
-                            </li>
-                            <li onClick={() => setCurrentLink(5)} className={currentLink === 5 ? 'active' : ''}>
-                                <a href="#">
-                                    <MdSpaceDashboard className="icon_link" />
-                                    <span className='span_link'>Dashboard</span>
-                                </a>    
-                            </li>
-                            <li onClick={() => setCurrentLink(6)} className={currentLink === 6 ? 'active' : ''}>
-                                <a href="#">
-                                    <MdSpaceDashboard className="icon_link"/>
-                                    <span className='span_link'>Dashboard</span>
-                                </a>    
+                                </Link>    
                             </li>
                         </ul>
                     </div>

@@ -87,6 +87,10 @@ li a {
     align-items: center;
 }
 
+.li_class:hover {
+    background-color: #999;
+}
+
 .active {
     background-color: #222;
 

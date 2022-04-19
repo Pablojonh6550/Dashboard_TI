@@ -1,15 +1,15 @@
-.rede_container {
+.smartphone_container {
     margin-left: 40vh;
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
 
 }
-  
-.rede_card {
+
+.smartphone_cards {
     display: grid;
-    grid-template-columns: repeat(2, 80vh);
-    gap: 0.5rem;
+    grid-template-columns: repeat(3, 20em);
+    gap: 0.8rem;
     width: 100%;
 
 }

@@ -1,32 +1,29 @@
-.card {
+.computer_card {
     padding: 1em;
     border-radius: 5px;
-    width: 35vw;
-    height: 5vw;
+    width: 80%;
     margin: 1%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
+    margin-left: 6em;
     background: rgb(236, 236, 236);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-.card h4 {
+.computer_card h4 {
     background-color: #222;
     color: #fff;
-    padding: 0.3em;
+    padding: 0.4em;
+    margin-bottom: 1.3em;
     font-size: 1.3em;
     border-radius: 0.4em;
-    width: 12vh;
-
+    width: 100%;
 }
 
-.card p {
+.computer_card p {
     color: #7a7a7a;
+    margin-bottom: 1em;
 
 }
 
-.card p span {
+.computer_card p span {
     font-weight: bold;
 }

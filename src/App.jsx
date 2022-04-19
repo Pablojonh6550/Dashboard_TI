@@ -5,6 +5,7 @@ import './App.css';
 
 import ComputerPage from './components/Report/ComputerPage';
 import Rede from './components/Report/Rede';
+import Smartphone from './components/Report/Smartphone';
 import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Rede />} />
           <Route path="/computer" element={<ComputerPage />} />
+          <Route path="/smartphone" element={<Smartphone />} />
         </Routes>
     </Router>
     
