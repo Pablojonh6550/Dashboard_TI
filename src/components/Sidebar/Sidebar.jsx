@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 //--Icons--
 import { MdOutlineComputer } from 'react-icons/md';
-import { RiComputerLine } from 'react-icons/ri';
+import { GiTechnoHeart } from 'react-icons/gi';
 import { FiLogOut, FiSmartphone } from 'react-icons/fi';
 import { TiWiFi } from 'react-icons/ti';
 //--Hooks--
@@ -22,7 +22,7 @@ function Sidebar() {
                 <div className="top">
                     <div className="bottom">
                     <div className="brand">
-                        <RiComputerLine />
+                        <GiTechnoHeart />
                         <span>Dashboard TI</span>
                     </div>
                     </div>

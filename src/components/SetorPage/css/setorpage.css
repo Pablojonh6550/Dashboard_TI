@@ -1,0 +1,25 @@
+.setorpage_container {
+    margin-left: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+}
+
+.map {
+    background-color: #fff;
+    border-bottom: 2px solid #222;
+    width: 99%;
+    display: grid;
+    grid-template-columns: repeat(2, 30rem);
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.setorpage_container span {
+    font-size: 1.3rem;
+    padding: 0.2rem;
+    align-items: center;
+
+}
