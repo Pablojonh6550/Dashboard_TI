@@ -3,9 +3,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 //--Icons--
-import { MdSpaceDashboard } from 'react-icons/md';
+import { MdOutlineComputer } from 'react-icons/md';
 import { RiComputerLine } from 'react-icons/ri';
-import { FiLogOut } from 'react-icons/fi';
+import { FiLogOut, FiSmartphone } from 'react-icons/fi';
+import { TiWiFi } from 'react-icons/ti';
 //--Hooks--
 import { useState } from 'react';
 //--CSS--
@@ -32,19 +33,19 @@ function Sidebar() {
                         <ul>
                             <li onClick={() => setCurrentLink(1)} className={currentLink === 1 ? 'active' : 'li_class'}>
                                 <Link to='/'>
-                                    <MdSpaceDashboard className="icon_link" />
+                                    <TiWiFi className="icon_link" />
                                     <span className='span_link'>Rede</span>
                                 </Link>    
                             </li>
                             <li onClick={() => setCurrentLink(2)} className={currentLink === 2 ? 'active' : 'li_class'}>
                                 <Link to="/computer">
-                                    <MdSpaceDashboard className="icon_link" />
+                                    <MdOutlineComputer className="icon_link" />
                                     <span className='span_link'>Computador</span>
                                 </Link>    
                             </li>
                             <li onClick={() => setCurrentLink(3)} className={currentLink === 3 ? 'active' : 'li_class'}>
                                 <Link to="/smartphone">
-                                    <MdSpaceDashboard className="icon_link" />
+                                    <FiSmartphone className="icon_link" />
                                     <span className='span_link'>Smartphone</span>
                                 </Link>    
                             </li>
