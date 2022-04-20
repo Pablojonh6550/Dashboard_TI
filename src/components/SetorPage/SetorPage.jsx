@@ -4,11 +4,12 @@ import Nav from "../Nav/Nav";
 import RedeCard from '../Cards/RedeCard';
 import RamalCard from "../Cards/RamalCard";
 import ButtonAdd from "../Button/ButtonAdd";
-
-import './css/setorpage.css'; 
 import ImpressoraCard from "../Cards/ImpressoraCard";
 
+import './css/setorpage.css'; 
+
 function SetorPage({setor}) {
+
     return (
         <>
         <section className="setorpage_container">
@@ -23,10 +24,6 @@ function SetorPage({setor}) {
             </div>
                 <span>Rede</span>
             <div className="map">
-                <RedeCard />
-                <RedeCard />
-                <RedeCard />
-                <RedeCard />
                 <RedeCard />
             </div>
             <div className="button">

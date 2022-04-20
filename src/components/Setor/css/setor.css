@@ -1,8 +1,8 @@
 .container_setor {
-    padding-top: 3rem;
+    padding-top: 0.5rem;
     display: grid;
-    grid-template-columns: repeat(4, 9rem);
-    gap: 2rem;
-    margin-left: 14rem;
+    grid-template-columns: repeat(3, 15rem);
+    gap: 1.5rem;
+    margin-left: 10rem;
     
 }

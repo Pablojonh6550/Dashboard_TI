@@ -2,12 +2,12 @@ import React from "react";
 
 import './css/impressoracard.css';
 
-function ImpressoraCard() {
+function ImpressoraCard({impressora, porta}) {
     return (
         <div className="impressora_card">
-            <h4>Impressora: </h4>
+            <h4>Impressora: {impressora}</h4>  
             <p>
-                <span>Porta:</span>
+                <span>Porta:</span> {porta}
             </p>
         </div>
     );

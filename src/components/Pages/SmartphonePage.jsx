@@ -12,13 +12,7 @@ function Smartphone() {
             <Nav tittle="Celulares"/>
             <div className="smartphone_cards">
                 <SmartphoneCard />
-                <SmartphoneCard />
-                <SmartphoneCard />
-                <SmartphoneCard />
-                <SmartphoneCard />
-                <SmartphoneCard />
-                <SmartphoneCard />
-                <SmartphoneCard />
+                
             </div>
             <div className="button">
                 <ButtonAdd />

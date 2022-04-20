@@ -12,13 +12,7 @@ function ComputerPage() {
             <Nav tittle="Computadores"/>
             <div className="computer_cards">
                 <ComputerCard />
-                <ComputerCard />
-                <ComputerCard />
-                <ComputerCard />
-                <ComputerCard />
-                <ComputerCard />
-                <ComputerCard />
-                <ComputerCard />
+               
             </div>
             <div className="button">
                 <ButtonAdd />
